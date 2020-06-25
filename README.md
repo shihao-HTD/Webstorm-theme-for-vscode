@@ -1,1 +1,1 @@
-    a theme like Webstorm
+    a theme like Webstorm (very like)
