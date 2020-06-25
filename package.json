@@ -1,0 +1,21 @@
+{
+    "name": "webstorm-theme",
+    "displayName": "webstorm theme",
+    "description": "webstorm-theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Webstorm theme",
+                "uiTheme": "vs",
+                "path": "./themes/Webstorm theme-color-theme.json"
+            }
+        ]
+    }
+}
