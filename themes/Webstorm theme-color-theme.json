@@ -11,7 +11,7 @@
 		"sideBar.background": "#fffae3",
 		"sideBar.foreground": "#000000",
 		"sideBar.border": "#c0c0c0",
-		"sideBarSectionHeader.background": "#d4d4d4",
+		"sideBarSectionHeader.background": "#fffae3",
 		"editorGutter.background": "#f0f0f0",
 		"editorLineNumber.foreground": "#c1c1c1",
 		"editor.lineHighlightBackground": "#fffae3",
@@ -271,14 +271,16 @@
 			"name": "HTML: Attribute Values",
 			"scope": "string.quoted.double.html",
 			"settings": {
-				"fontStyle": ""
+				"foreground": "#008000",
+				"fontStyle": "bold"
 			}
 		},
 		{
 			"name": "HTML: Css styles in html tags",
 			"scope": "source.css",
 			"settings": {
-				"fontStyle": ""
+				"foreground": "#008000",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -318,7 +320,10 @@
 			"scope": [
 				"meta.property-value",
 				"meta.property-value constant.other",
-				"support.constant.property-value"
+				"support.constant.property-value",
+				"source.css constant.numeric",
+				"source.css constant.language",
+				"source.css keyword.other.unit"
 			],
 			"settings": {
 				//"foreground": "#09885A",
@@ -529,14 +534,16 @@
 			"name": "string.quoted.double.js",
 			"scope": "string.quoted.double.js",
 			"settings": {
-				"fontStyle": ""
+				"foreground": "#008000",
+				"fontStyle": "bold"
 			}
 		},
 		{
 			"name": "string.quoted.single.js",
 			"scope": "string.quoted.single.js",
 			"settings": {
-				"fontStyle": ""
+				"foreground": "#008000",
+				"fontStyle": "bold"
 			}
 		},
 		{
