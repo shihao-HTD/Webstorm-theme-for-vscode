@@ -505,7 +505,7 @@
 			"name": "variable other object js",
 			"scope": "variable.other.object.js",
 			"settings": {
-				"foreground": "#008D90",
+				//"foreground": "#008D90",
 				"fontStyle": "bold"
 			}
 		},
