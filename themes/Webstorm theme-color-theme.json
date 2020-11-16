@@ -90,8 +90,8 @@
 			"name": "Types",
 			"scope": ["storage.type", "support.type"],
 			"settings": {
-				"foreground": "#000000",
-				"fontStyle": ""
+				"foreground": "#000088",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -113,7 +113,8 @@
 			"name": "Functions",
 			"scope": ["entity.name.function", "support.function"],
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#696539",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -574,15 +575,16 @@
 			"name": "entity.name.function.js",
 			"scope": "entity.name.function.js",
 			"settings": {
-				"foreground": "#696539"
+				"foreground": "#696539",
+				"fontStyle": "bold"
 			}
 		},
 		{
 			"name": "variable.parameter.js",
 			"scope": "variable.parameter.js",
 			"settings": {
-				"foreground": "#000000",
-				"fontStyle": ""
+				"foreground": "#660E7A",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -687,7 +689,7 @@
 			"scope": "keyword.other.phpdoc.php",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#AAAAAA"
+				"foreground": "#000088"
 			}
 		},
 		{
@@ -723,5 +725,26 @@
 				"fontStyle": "bold"
 			}
 		}
+		// {
+		// 	"name": "Global keywords",
+		// 	"scope": [
+		// 		"keyword - keyword.operator",
+		// 		"constant.language",
+		// 		"keyword.control",
+		// 		"keyword.operator.expression",
+		// 		"keyword.operator.new",
+		// 		"keyword.other.debugger",
+		// 		"support.type",
+		// 		"storage.type",
+		// 		"storage.modifier",
+		// 		"variable.language.super",
+		// 		"variable.language.this",
+		// 		"entity.name.class"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#000088",
+		// 		"fontStyle": "bold"
+		// 	}
+		// }
 	]
 }
