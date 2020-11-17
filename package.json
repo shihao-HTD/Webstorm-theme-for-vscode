@@ -16,6 +16,11 @@
 				"label": "Webstorm theme",
 				"uiTheme": "vs",
 				"path": "./themes/Webstorm theme-color-theme.json"
+      },
+      {
+				"label": "Webstorm save eye theme",
+				"uiTheme": "vs",
+				"path": "./themes/Webstorm theme- save eye-theme.json"
 			}
 		]
 	},
