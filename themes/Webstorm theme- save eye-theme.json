@@ -1,8 +1,8 @@
 {
-	"name": "Webstorm theme",
+	"name": "Webstorm save eye theme",
 	"type": "light",
 	"colors": {
-		"editor.background": "#fafafa",
+		"editor.background": "#fdf9ee",
 		"editor.foreground": "#000000",
 		"tab.inactiveBackground": "#d4d4d4",
 		"tab.inactiveForeground": "#333333",
